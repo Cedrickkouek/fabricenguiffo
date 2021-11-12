@@ -48,7 +48,7 @@ function checkout() {
              <div className="flex flex-col bg-white p-10 shadow-md">
                {items.length > 0 && (
                  <>
-                   <h2 className="whitespace-nowrap">Total ({items.length} produits)
+                   <h2 className="whitespace-nowrap">Total ({items.length} produits): {" "}
                    <span className="font-bold">
                    <Currency quantity={total*565} currency="XAF" /> 
                    </span>
