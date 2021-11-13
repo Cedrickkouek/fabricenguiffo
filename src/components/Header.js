@@ -21,7 +21,7 @@ function Header() {
                     {/*Next js image tag*/}
                     <Image
                        onClick={() => router.push('/')}
-                       src="https://kouek.band/qoa"
+                       src="/ride.png"
                        width={150}
                        height={40}
                        objectFit="contain"
